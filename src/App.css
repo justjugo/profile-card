@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+
+*
+{
+  padding: 0%;
+  margin: 0%;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  background-image: url(./images/leebit.png);
+  background-position-x: center;
+  background-position-y: -200px;
+
+  
+}
+.profile-card
+{
+ 
+  
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  
+  
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info-image
+{
+  height: 350px;
+  width: 500px;
+  background-image: url(./images/leeknow.png) ;
+  background-repeat: none;
+  background-size: 500px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.info-text
+{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color:rgb(31, 31, 32);
 }
 
-.App-link {
-  color: #61dafb;
+.info-text h4,.info-text h5,.info-text p
+{
+  letter-spacing: 3px;
+  background-color:rgb(31, 31, 32);
+  color: whitesmoke;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info-text p
+{
+  font-size: small;
 }
+
+.info-text h4
+{
+  font-size:large;
+}
+
+.link-info 
+{
+  display: flex;
+  justify-content: space-around;
+  background-color:rgb(31, 31, 32) ;
+}
+
+.link-info a
+{
+  margin: 10px;
+  padding: 10px;
+  background-color:rgb(199, 194, 194);
+  text-decoration: none;
+  color: rgb(31, 31, 32);
+  border-radius: 10px;
+  width: 50px;
+  text-align: center;
+
+}
+
+.aboutcontainer
+{
+ 
+  width: 500px; 
+  background-color: rgb(31, 31, 32);
+  color: whitesmoke;
+}
+.aboutcontainer p
+{
+  background-color: rgb(31, 31, 32);
+  padding: 10px;
+}
+.aboutcontainer h3
+{
+  background-color: rgb(31, 31, 32);
+  padding-left: 10px;
+}
+
+.interstcontainer
+{
+ 
+  width: 500px; 
+  background-color: rgb(31, 31, 32);
+  color: whitesmoke;
+}
+.interstcontainer p
+{
+  background-color: rgb(31, 31, 32);
+  padding: 10px;
+}
+
+.footercontainer
+{
+  width: 500px; 
+  background-color: rgb(31, 31, 32);
+  font-size: 30px;
+  border-top: 5px;
+  border-top-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-top: 20px;
+}
+
+
+
+
